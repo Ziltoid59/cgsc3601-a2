@@ -46,7 +46,7 @@ class TextAnalyer:
         return data
     
     @staticmethod
-    def run_vader(txts: dict) -> dict:
+    def run_vader(txts: dict) -> list:
         vader = SentimentIntensityAnalyzer()
 
         data = list()
