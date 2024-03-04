@@ -1,5 +1,4 @@
 import setuptools
-import subprocess
 
 
 required_packages = [
@@ -22,5 +21,3 @@ setuptools.setup(
     zip_safe=False
 )
 
-cmd = ['python3','-m','textblob.download_corpora']
-subprocess.run(cmd)
